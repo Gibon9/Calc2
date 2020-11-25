@@ -12,11 +12,7 @@ const units = [
   {
     name: "wenta",
     description:
-      "Unit of time created in honor of Polish handball players in January 2009. One sentence lasts 15 seconds. As is well known, one sentence is a long time. Enough to change the game or miss the bus, anyway.",
-  },
-  {
-    name: "Gołota",
-    description: `Unit of time created in 2005, when the duel between Andrzej Gołota and Lamon Brewster, announced as the "Battle of Chicago", took place. Golota fell on the boards three times in less than a minute before it was decided that he was knocked out. one Golota is 53 seconds long`,
+      "unit of time created in honor of Polish handball players in January 2009. One sentence lasts 15 seconds. As is well known, one sentence is a long time. Enough to change the game or miss the bus, anyway.",
   },
 ];
 
