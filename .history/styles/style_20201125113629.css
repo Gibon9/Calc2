@@ -83,16 +83,11 @@ option {
   justify-content: space-around;
   align-items: center;
   background-color: var(--background-light);
-  border-radius: 5px;
 }
 
 .input-form--number {
-  font-size: 18px;
-  margin-top: 10px;
-}
-
-.input-form--selector {
-  font-size: 18px;
+  font-size: 12px;
+  margin-bottom: 10px;
 }
 
 .calc-button {
@@ -101,7 +96,7 @@ option {
   border: 2px solid var(--text-light);
   border-radius: 5px;
   padding: 5px 10px;
-  margin: 15px 0 10px;
+  margin: 10px 0;
   color: var(--text-light);
   background-color: transparent;
 }
@@ -112,9 +107,4 @@ option {
 }
 
 .description {
-}
-
-.description--title {
-  margin-top: 15px;
-  font-size: 30px;
 }

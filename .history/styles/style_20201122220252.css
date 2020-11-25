@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&family=Nerko+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Nerko+One&display=swap');
 
 :root {
   --body-color: #edf2f4;
@@ -25,13 +25,13 @@ body {
 .description--title,
 .score--text,
 .calc-button {
-  font-family: "Nerko One", cursive;
+  font-family: 'Nerko One', cursive;
 }
 
 .descrption--text,
 label,
 option {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .main-content,
@@ -79,20 +79,9 @@ option {
   flex-direction: column;
   height: 100%;
   width: 400px;
-  margin: 10px 0;
   justify-content: space-around;
   align-items: center;
   background-color: var(--background-light);
-  border-radius: 5px;
-}
-
-.input-form--number {
-  font-size: 18px;
-  margin-top: 10px;
-}
-
-.input-form--selector {
-  font-size: 18px;
 }
 
 .calc-button {
@@ -100,21 +89,14 @@ option {
   font-size: 20px;
   border: 2px solid var(--text-light);
   border-radius: 5px;
-  padding: 5px 10px;
-  margin: 15px 0 10px;
   color: var(--text-light);
   background-color: transparent;
 }
 
 .calc-button:hover {
   color: var(--text-dark);
-  background-color: var(--body-color);
+  background-color: var(--text-light);
 }
 
 .description {
-}
-
-.description--title {
-  margin-top: 15px;
-  font-size: 30px;
 }

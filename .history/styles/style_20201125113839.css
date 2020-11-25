@@ -83,7 +83,6 @@ option {
   justify-content: space-around;
   align-items: center;
   background-color: var(--background-light);
-  border-radius: 5px;
 }
 
 .input-form--number {
@@ -112,9 +111,4 @@ option {
 }
 
 .description {
-}
-
-.description--title {
-  margin-top: 15px;
-  font-size: 30px;
 }
