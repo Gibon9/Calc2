@@ -133,13 +133,9 @@ option {
   justify-content: center;
   align-items: center;
   background-color: rgba(43, 45, 66, 0.8);
-  opacity: 0;
 }
 
 .popup {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 200px;
   width: 400px;
   background-color: var(--text-dark);
@@ -147,8 +143,5 @@ option {
 }
 
 .popup--text {
-  font-size: 20px;
-  color: var(--background-light);
-  margin: 10px 10px;
-  text-align: center;
+  color: var(--background-dark);
 }

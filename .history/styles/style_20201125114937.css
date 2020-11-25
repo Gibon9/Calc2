@@ -119,36 +119,6 @@ option {
 }
 
 .description--title {
-  margin: 15px 0;
+  margin-top: 15px;
   font-size: 30px;
-}
-
-.score {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(43, 45, 66, 0.8);
-  opacity: 0;
-}
-
-.popup {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
-  width: 400px;
-  background-color: var(--text-dark);
-  border-radius: 5px;
-}
-
-.popup--text {
-  font-size: 20px;
-  color: var(--background-light);
-  margin: 10px 10px;
-  text-align: center;
 }
